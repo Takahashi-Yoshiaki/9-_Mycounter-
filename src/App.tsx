@@ -58,13 +58,6 @@ function App() {
           リセット
         </button>
 
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count * 2)}
-        >
-          2倍
-        </button>
 
         <p>現在のカウントは {count} です</p>
       </section>
